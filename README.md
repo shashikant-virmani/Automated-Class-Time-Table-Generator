@@ -8,7 +8,7 @@
   process of timetable generation.
 
 ## Project Description
-- It is a java web application that contains three modules :
+It is a java web application that contains three modules :
 - <b>Download Timetable</b> : This module lets any user download time table of different classes.
 - <b>Admin Login</b> : This module lets admin add new courses, new teachers, new subjects and new classrooms and 
     allow admin to edit and generate timetable for different classes after successful login.
