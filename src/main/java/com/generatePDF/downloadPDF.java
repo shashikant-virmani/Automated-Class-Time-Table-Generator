@@ -26,7 +26,7 @@ public class downloadPDF extends HttpServlet {
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		String file = request.getParameter("select_semester");
+		String file = request.getParameter("course");
 		String filename = file + ".pdf";
 		
 		System.out.println("Searching for " + filename);
@@ -35,10 +35,10 @@ public class downloadPDF extends HttpServlet {
 		String fullPath = path + file + ".pdf";
 		
 		File f = new File(fullPath);
-		if(f.exists() == false) {
-			System.out.println("Generating " + filename);
+		//if(f.exists() == false) {
+			//System.out.println("Generating " + filename);
 			generatePDF.generatePdf(path, file);
-		}
+		//}
 		
 		System.out.println("Downloading " + filename);
 		

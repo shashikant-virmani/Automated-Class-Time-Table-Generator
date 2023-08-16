@@ -83,7 +83,7 @@
 	<h2 style = "font-family: 'Open Sans', sans-serif">Download Time Table</h2>
 	</div>
     <form data-scroll-reveal="enter from the bottom after 0.2s" action="downloadPDF" method="post">
-        <select id="select_semester" name="select_semester" class="list-group-item">
+        <select id="select_semester" name="course" class="list-group-item">
             <option selected disabled>Select Semester</option>
             <option value="MCA_Semester_1"> MCA I Year ( Semester I )</option>
             <option value="MCA_Semester_2"> MCA I Year ( Semester II )</option>
@@ -107,7 +107,7 @@
         <div class="modal-body" id="LoginType">
             <!--Admin Login Form-->
             <div style="display:none" id="adminForm">
-                <form action="adminFormvalidation.php" method="POST">
+                <form action="Login" method="POST">
                     <div class="form-group">
                         <label for="adminname">Username</label>
                         <input type="text" class="form-control" id="adminname" name="UN" placeholder="Username ...">
@@ -191,7 +191,7 @@
     <div class="container set-pad">
         <div class="row text-center">
             <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-                <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">OUR FACULTY </h1>
+                <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">DEVELOPED BY</h1>
 
             </div>
 
@@ -212,19 +212,19 @@
             </div>
             <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.5s">
                 <div class="faculty-div">
-                    <img src="img/faculty/a.jpg" class="img-rounded"/>
-                    <h3 align="center">Dr. M. Atulkar</h3>
+                    <img src="img/faculty/shashi.jpg" class="img-rounded"/>
+                    <h3 align="center">Shashikant</h3>
                     <hr/>
-                    <h4 align="center">HOD<br/>MCA Department, NIT Raipur</h4>
+                    <h4 align="center">Roll No : 20223084<br/>MCA 5th Semester</h4>
 
                 </div>
             </div>
             <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.6s">
                 <div class="faculty-div">
-                    <img src="img/faculty/b.jpg" class="img-rounded"/>
-                    <h3 align="center">Mr. H. Bikrol</h3>
+                    <img src="img/faculty/krishna.jpeg" class="img-rounded"/>
+                    <h3 align="center">Krishna Kumar</h3>
                     <hr/>
-                    <h4 align="center">Assoc. Professor<br/>MCA Department, NIT Raipur</h4>
+                    <h4 align="center">Roll No : 20223053<br/>MCA 5th Semester</h4>
 
                 </div>
             </div>
